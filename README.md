@@ -2,8 +2,6 @@
 
 **Change-data-capture pipeline: Postgres WAL -> Debezium -> Kafka-compatible broker -> a Python stream processor (dedupe, schema evolution, windowed aggregation) -> ClickHouse.**
 
-[![CI](https://github.com/SlateGitOrg/streamguard-cdc/actions/workflows/ci.yml/badge.svg)](https://github.com/SlateGitOrg/streamguard-cdc/actions/workflows/ci.yml)
-
 ![streamguard-cdc](assets/hero.png)
 
 ## Why
@@ -239,9 +237,3 @@ docker-compose.yml      the full stack: Postgres, Redpanda, Debezium Connect, Cl
 ## License
 
 MIT - see [LICENSE](LICENSE).
-
-## Maintainer
-
-Maintained by Dev Bhatt, a data analyst with 6+ years of professional experience building automated pipelines, controls, and dashboards. His work focuses on data solutions and analytics, including risk indicators, controls, and automation.
-
-For project questions or feedback, contact [Dev Bhatt](mailto:devbhattwork27@gmail.com) or connect on [LinkedIn](https://linkedin.com/in/dev-bhatt27).
